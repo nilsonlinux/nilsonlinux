@@ -48,7 +48,7 @@ end
 function onClick()
   -- abre/fecha a janelinha com a lista de itens; o proprio painel marca
   -- como lido (zera o badge) quando e aberto, via IPC pro service
-  noctalia.togglePanel("nilsonlinux/rss-notifier:list")
+  noctalia.togglePanel("nilsonlinux/rss-notifier:panel")
 end
 
 function onRightClick()
