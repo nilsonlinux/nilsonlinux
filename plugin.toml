@@ -63,19 +63,19 @@ entry = "service.luau"
 id    = "badge"
 entry = "widget.luau"
 
-  [[widget.setting]]
-  key             = "glyph"
-  type            = "glyph"
-  label_key       = "settings.glyph.label"
-  description_key = "settings.glyph.description"
-  default         = "rss"
+[[widget.setting]]
+key             = "glyph"
+type            = "glyph"
+label_key       = "settings.glyph.label"
+description_key = "settings.glyph.description"
+default         = "rss"
 
 # ---------------------------------------------------------------------------
 # Panel: janelinha com a lista de itens, aberta pelo clique no widget
 # ---------------------------------------------------------------------------
 
 [[panel]]
-id              = "list"
+id              = "panel"
 entry           = "panel.luau"
 width           = 360
 height          = 440
