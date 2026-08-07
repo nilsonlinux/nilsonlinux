@@ -28,7 +28,7 @@ text
 | `refresh_minutes` | int | `30` | How often to check for new items (1-1440 minutes) |
 | `notify_new` | bool | `true` | Display notifications when new items arrive |
 | `max_notifications_per_cycle` | int | `5` | Maximum notifications shown per check (1-50) |
-| `glyph ` | Int | `icon` | Icon shown in the bar for this widget |
+| `glyph` | `glyph` | `rss` | The glyph shown for the widget on the bar. |
 
 ## Installation
 
